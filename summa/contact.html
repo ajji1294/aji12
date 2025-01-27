@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-image: url('https://img.freepik.com/premium-vector/school-supplies-vector-doodle-illustration-stationery-set_629110-351.jpg?w=1380');
+            background-repeat: no-repeat;
+            background-size: cover;
+           background-attachment: fixed;
+        }
+        nav{
+            background-color: beige;
+            padding: 20px;
+            text-align: center;
+        }
+        li ul a:hover{
+            color: skyblue;
+        }
+        ul, li{
+            list-style: none;
+            display: flex;
+            display: inline;
+            padding: 10px;
+            margin: 20px;
+            font-family: sans-serif;
+            font-size: 25px;
+            
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        img{
+                opacity: 0.5;
+                width: 350px;
+                height: 350px;
+                margin-left: 100px;
+                margin-top: 50px;
+                border-radius: 50px;
+            }
+        img:hover{
+            opacity: 0.7;
+        }
+        .us{
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
+        form{
+            margin: 40px;
+            width: 50px;
+            height: 50px;
+            margin: 30px;
+            padding-top: 30px;
+        }  
+        button{
+            width: 200px;
+            margin-top: 50px;
+            background-color: skyblue;
+            border-radius: 30px;
+            height: 50px;
+            margin-left: 30px;
+            } 
+            input{
+                padding: 10px;
+                width: 250px;
+            }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="indexx.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="sign.html">SIGN UP</a></li>
+        </ul>
+    </nav>
+    <div>
+        <img src="https://img.freepik.com/free-vector/online-assistant-user-help-frequently-asked-questions-call-center-worker-cartoon-character-woman-working-hotline_335657-2336.jpg?t=st=1736692653~exp=1736696253~hmac=a288a9887517b82bc2345a4bbe1bf9175c5f8fdcdbd0f6884759134b62af11ba&w=740" alt="">
+        <div class="us">
+            <h1>CONTACT US</h1>
+            <form>
+                <p>NAME: <input type="text" name="" id=""></p><br>
+                <P>EMAIL ADDRESS: <input type="text" name="" id=""></P><br>
+                <p>SUBJECT: <input type="text" name="" id=""></p><br>
+                <p>YOUR MESSAGE: <input type="text" name="" id=""></p>
+                <button type="button" onclick="alert('MESSAGE SUCCESSFULLY SEND')">SEND MESSAGE</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

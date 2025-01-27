@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    background-color: yellowgreen;
+    padding: 20px;
+    text-align: center;
+}
+ul, li{
+     list-style: none;
+     margin: 20px;
+     padding: 10px;
+     display: flex;
+     display: inline;
+     
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-image: url(https://www.oflox.com/blog/wp-content/uploads/2021/05/List-of-Educational-Websites-In-India.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: white;
+    text-align: left;
+    margin-top: 200px;
+    font-size: 40px;
+    margin-left: 70px;
+}
+a:hover{
+    color: rebeccapurple;
+}
+h1:hover{
+    text-shadow: -5px -5px 5px black;
+}
+button{
+    width: 100px;
+    height: 30px;
+    color: blue;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-top: 50px;
+
+}
+p{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+}
